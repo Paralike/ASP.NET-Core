@@ -5,8 +5,9 @@ using System.Text;
 namespace PubErtekelo.DAL.Entities
 {
     public class Felhasznalo : EntityBase{
-        string felhasznalonev { get; set; }
-        string email { get; set; }
-        string jelszo { get; set; }
+        public int Id { get; set; }
+        public string Felhasznalonev { get; set; }
+        public string Email { get; set; }
+        public string Jelszo { get; set; }
     }
 }
