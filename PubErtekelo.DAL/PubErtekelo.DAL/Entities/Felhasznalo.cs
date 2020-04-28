@@ -8,5 +8,5 @@ namespace PubErtekelo.DAL.Entities
         public string Felhasznalonev { get; set; }
         public string Email { get; set; }
         public string Jelszo { get; set; }
-    }
+    } 
 }
