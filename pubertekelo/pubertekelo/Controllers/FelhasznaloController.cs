@@ -36,7 +36,13 @@ namespace pubertekelo.Controllers
         public async Task<IActionResult> Put(int id, [FromBody]FelhasznaloDto dto, CancellationToken cancellationToken) {
             await _felhasznaloService.UpdateAsync(id, dto, cancellationToken); 
             return Ok(); 
-        } 
+        }
+
+        private IActionResult Ok()
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpDelete("{id}")] 
         public async Task<IActionResult> Delete(int id, CancellationToken cancellationToken) { 
             await _felhasznaloService.DeleteAsync(id, cancellationToken); 
