@@ -1,14 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using PubErtekelo.DAL;
 
 namespace pubertekelo
 {
@@ -25,6 +22,16 @@ namespace pubertekelo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddDbContext<PubErtekeloDbContext>(options => 
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            }); 
+            services.AddSwaggerGen(c => 
+            {
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tanulmányi rendszer API", Version = "v1"});
+            });
+            services.AddScoped<IFelhasznaloService, DefaultFelhasznaloService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
