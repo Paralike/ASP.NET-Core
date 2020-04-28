@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pubertekelo.DAL", "pubertekelo.DAL\pubertekelo.DAL.csproj", "{ACF1B29C-B7F2-4307-8F6E-A49CFAE2E147}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubErtekelo.DAL", "PubErtekelo.DAL\PubErtekelo.DAL.csproj", "{E444F0E2-2351-473A-A7E1-CCF99CB61C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACF1B29C-B7F2-4307-8F6E-A49CFAE2E147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACF1B29C-B7F2-4307-8F6E-A49CFAE2E147}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACF1B29C-B7F2-4307-8F6E-A49CFAE2E147}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACF1B29C-B7F2-4307-8F6E-A49CFAE2E147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E444F0E2-2351-473A-A7E1-CCF99CB61C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E444F0E2-2351-473A-A7E1-CCF99CB61C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E444F0E2-2351-473A-A7E1-CCF99CB61C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E444F0E2-2351-473A-A7E1-CCF99CB61C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FC8DC130-31E1-4783-BC78-90D870908D25}
+		SolutionGuid = {F4136183-E10D-44C1-976E-B66DF999DC3C}
 	EndGlobalSection
 EndGlobal

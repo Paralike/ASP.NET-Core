@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.CodeAnalysis;
-using pubertekelo.DAL.Entities;
+﻿using System.Diagnostics.CodeAnalysis;
+using PubErtekelo.DAL.Entities;
+using   Microsoft.EntityFrameworkCore;
 
-namespace pubertekelo.DAL.Entities
+namespace PubErtekelo.DAL
 {
     class PubErtekeloDbContext : DbContext
     {

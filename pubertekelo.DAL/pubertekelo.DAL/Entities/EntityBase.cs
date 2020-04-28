@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace pubertekelo.DAL.Entities
+namespace PubErtekelo.DAL.Entities
 {
     public abstract class EntityBase
     {
