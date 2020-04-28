@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PubErtekelo.BLL.ViewModels
 {
-    class FelhasznaloViewModel
+    public class FelhasznaloViewModel
     {
         public int Id { get; set; }
         public string Felhasznalonev { get; set; }

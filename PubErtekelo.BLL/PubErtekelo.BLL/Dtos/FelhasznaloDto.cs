@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PubErtekelo.BLL.Dtos
 {
-    class FelhasznaloDto
+    public class FelhasznaloDto
     {
         public string Felhasznalonev { get; set; }
         public string Email { get; set; }
