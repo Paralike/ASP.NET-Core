@@ -9,7 +9,7 @@ using PubErtekelo.DAL;
 
 namespace PubErtekelo.BLL.Services
 {
-    class DefaultFelhasznaloService : IFelhasznaloService
+    public class DefaultFelhasznaloService : IFelhasznaloService
     {
         private readonly PubErtekelo.DAL.PubErtekeloDbContext _dbContext;
         public DefaultFelhasznaloService(PubErtekeloDbContext dbContext) { _dbContext = dbContext; }
