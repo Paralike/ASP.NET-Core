@@ -6,6 +6,6 @@ namespace PubErtekelo.DAL.Entities
 {
     public abstract class EntityBase
     {
-        public int id { get; set; }
-}
+        public int Id { get; set; }
+    }
 }
