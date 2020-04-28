@@ -12,6 +12,7 @@ namespace PubErtekelo.BLL.Services
     class DefaultFelhasznaloService : IFelhasznaloService
     {
         private readonly pubertekeloDbContext _dbContextt;
+        public DefaultFelhasznaloService(PubErtekeloDbContext dbContext) { _dbContext = dbContext; }
         public async Task<ItemsViewModel<FelhasznaloListViewModel>> ListAsync(PagedFilter filter, CancellationToken cancellationToken)
         {
             if (filter is null)
