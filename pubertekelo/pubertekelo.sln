@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pubertekelo", "pubertekelo\pubertekelo.csproj", "{FECF1124-03A4-4B1F-B71F-E3F8304871EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pubertekelo", "pubertekelo\pubertekelo.csproj", "{FECF1124-03A4-4B1F-B71F-E3F8304871EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubErtekelo.BLL", "..\PubErtekelo.BLL\PubErtekelo.BLL\PubErtekelo.BLL.csproj", "{9CB3D662-C1F3-4284-82DD-7AAEA0ADCDE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FECF1124-03A4-4B1F-B71F-E3F8304871EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECF1124-03A4-4B1F-B71F-E3F8304871EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECF1124-03A4-4B1F-B71F-E3F8304871EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB3D662-C1F3-4284-82DD-7AAEA0ADCDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB3D662-C1F3-4284-82DD-7AAEA0ADCDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB3D662-C1F3-4284-82DD-7AAEA0ADCDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB3D662-C1F3-4284-82DD-7AAEA0ADCDE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
