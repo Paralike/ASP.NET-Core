@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using PubErtekelo.BLL.Filters;
 using PubErtekelo.BLL.ViewModels;
 using PubErtekelo.DAL;
-namespace TanulmanyiRendszer.BLL.Services
+
+namespace PubErtekelo.BLL.Services
 {
-    public class DefaultSzemeszterService : IFelhasznaloService
+    public class DefaultFelhasznaloService : IFelhasznaloService
     {
         private readonly PubErtekeloDbContext _dbContext;
-        public DefaultSzemeszterService(PubErtekeloDbContext dbContext)
+        public DefaultFelhasznaloService(PubErtekeloDbContext dbContext)
         {
             _dbContext = dbContext;
         }

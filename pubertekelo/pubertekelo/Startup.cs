@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using PubErtekelo.BLL.Services;
 using PubErtekelo.DAL;
 
 namespace pubertekelo
@@ -29,7 +31,7 @@ namespace pubertekelo
             }); 
             services.AddSwaggerGen(c => 
             {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tanulmányi rendszer API", Version = "v1"});
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pub Ertekelo API", Version = "v1"});
             });
             services.AddScoped<IFelhasznaloService, DefaultFelhasznaloService>();
         }

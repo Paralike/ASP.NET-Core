@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using PubErtekelo.BLL.Filters;
 using PubErtekelo.BLL.ViewModels;
-namespace TanulmanyiRendszer.BLL.Services
+namespace PubErtekelo.BLL.Services
 {
     public interface IFelhasznaloService
     {
