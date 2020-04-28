@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading;
+using System.Threading.Tasks;
 using PubErtekelo.BLL.Filters;
 using PubErtekelo.BLL.ViewModels;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace PubErtekelo.BLL.Services
+namespace TanulmanyiRendszer.BLL.Services
 {
     public interface IFelhasznaloService
     {
