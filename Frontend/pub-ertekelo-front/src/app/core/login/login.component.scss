@@ -1,0 +1,18 @@
+.wrapper{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue ;
+  background-size:100% 100% ;
+
+  .full-width{
+    width: 100%;
+    margin-top: 8px;
+  }
+  .register-link{
+    color: blue;
+    margin-top: 4px;
+    cursor:pointer;
+  }
+}
