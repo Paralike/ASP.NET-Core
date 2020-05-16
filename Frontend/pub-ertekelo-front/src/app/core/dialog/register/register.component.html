@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Regisztráció</h1>
+<div mat-dialog-content>
+  <mat-form-field class ="full-width">
+    <mat-label>Felhasználónév</mat-label>
+    <input matInput placeholder="Felhasznalonev" [(ngModel)]="user.felhasznalonev">
+  </mat-form-field>
+  <mat-form-field class ="full-width">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Email" [(ngModel)]="user.email">
+  </mat-form-field>
+  <mat-form-field class ="full-width">
+    <mat-label>Jelszo</mat-label>
+    <input type="password" matInput placeholder="Jelszo" [(ngModel)]="user.jelszo">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Mégse</button>
+  <button mat-raised-button color="primary"  [mat-dialog-close]="user" cdkFocusInitial>Regisztrálok</button>
+</div>
